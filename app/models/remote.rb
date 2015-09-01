@@ -65,7 +65,7 @@ class Remote
 
   def self.do_it_a_lot
     vote_count = 0
-    1000.times do
+    322.times do
       vote_count = Remote.new.action_loop(vote_count)
     end
   end
